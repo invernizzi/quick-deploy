@@ -13,5 +13,5 @@ wget http://domain.com/install.sh | bash
 ```
 And get your files back, and your programs installed in no time.
 
-![quick-deploy](showcase.git)
+![quick-deploy](showcase.gif)
 
