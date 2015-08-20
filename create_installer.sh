@@ -35,6 +35,7 @@ say "Running installer."
 SOURCE_DIR=${1-'.'}
 INSTALLER_PATH=${2-'install.sh'}
 shopt -s extglob
+shopt -s dotglob
 echo "I'm creating an installer ($INSTALLER_PATH) for the files in directory $SOURCE_DIR"
 (
     pushd ${SOURCE_DIR} > /dev/null;
